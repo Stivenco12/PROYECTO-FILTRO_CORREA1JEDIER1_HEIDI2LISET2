@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    font-family: 'myriad-pro', sans-serif;
+    text-decoration: none;
+    color: inherit; 
+}
+
+/*primera parte*/
+
+.pp1 .p1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.pp1 .p2{
+    position: absolute;
+    margin-left: 45vw;
+    margin-top: 20vw;
+    width: 10%;
+    color: orange;
+    animation-name: p1 ;
+    animation-duration: 2s;
+}
+
+/*segunda parte*/
+
+.pp2 {
+    background: #ffff;
+    margin-left: 30vw;
+    margin-top: 10vw;
+    width: 40vw;
+    height: 30vw;
+    border-radius: 2vw;
+    position: absolute;
+    animation-name: p2 ;
+    animation-duration: 3s;
+}
+.pp2 .p1{
+    margin-left: 45%;
+    margin-top: 1vw;
+}
+.pp2 .p2{
+    margin-top: 0.3vw;
+    font-size: 1.5vw;
+    text-align: center;
+}
+.pp2 .p3{
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 0.2vw;
+}
+.pp2 .p4{
+    font-size:0.8vw;
+    margin-top: 1vw;
+    text-align: center;
+}
+.pp2 .p5{
+    margin-top: 0.8vw;
+    font-size: 1.2vw;
+    margin-left: 5vw;
+}
+.pp2 .p6{
+    border-radius: 1vw;
+    margin-left: 4vw;
+    width: 30vw;
+    height: 1vw;
+}
+.pp2 .p7{
+    margin-top: 1.8vw;
+    font-size: 1.2vw;
+    margin-left: 4.6vw;
+}
+.pp2 .p8{
+    border-radius: 1vw;
+    margin-left: 4vw;
+    width: 30vw;
+    height: 1vw;
+}
+.pp2 .p9{
+    text-align: center;
+    margin-left: 13vw;
+    margin-top: 1vw;
+    width: 14vw;
+    height: 2vw;
+    background: orangered;
+    color: #ffff;
+    border-radius: 2vw;
+    font-size: 1vw;
+}
+.pp2 .p10{
+    margin-top: 1vw;
+    text-align: center;
+    font-size: 0.6vw;
+}
+@keyframes p1{
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes p2{
+    0%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

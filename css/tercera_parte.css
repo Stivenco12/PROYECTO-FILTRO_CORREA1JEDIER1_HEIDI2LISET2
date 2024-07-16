@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    font-family: 'myriad-pro', sans-serif;
+    text-decoration: none;
+    color: inherit; 
+}
+
+/*primera parte*/
+
+.pp1{
+    border: 0.2vw solid black;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1vw;
+    margin-top: -5vw;
+}
+.pp1 .p1{
+
+    margin-left: 10vw;
+}
+.pp1 .p3{
+    margin-left: 8vw;
+}
+.pp1 .p5{
+    margin-left: 8vw;
+}
+.pp1 .p7{
+    margin-left: 8vw;
+}
+.pp1 .p8{
+    margin-left: 10vw;
+}
+.pp1 .p10{
+    margin-left: 12vw;
+}
+.pp1 .p12{
+    margin-left: 12vw;
+}
+.pp1 .p13{
+    margin-left: 1vw;
+}
+.pp1 .p14{
+    margin-left: 1vw;
+}
+
+
+
+
+
+/*segunda parte*/
+.pp2{
+    margin-top: 5vw;
+}
+.pp2 .p1{
+    margin-top: 3vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.pp2 .p2{
+    text-align: center;
+    font-size: 1vw;
+    margin-top: 0.5vw;
+}
+
+/*tercera parte*/
+
+.pp3 .ppp1{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1vw;
+    margin-top: 2vw;
+}
+.pp3 .ppp1 .p1{
+    margin-left: 5vw;
+}
+.pp3 .ppp1 .p2{
+    margin-left: 5vw;
+}
+.pp3 .ppp1 .p3{
+    margin-left: 5vw;
+}
+.pp3 .ppp1 .p4{
+    margin-left: 5vw;
+}
+.pp3 .ppp1 .p5{
+    margin-left: 5vw;
+}
+.pp3 .ppp1 .p6{
+    margin-left: 5vw;
+}
+.pp3 .ppp1 .p7{
+    margin-left: 5vw;
+}
+.pp3 .ppp1 .p8{
+    margin-left: 5vw;
+}
+.pp3 .ppp1 .p9{
+    margin-left: 5vw;
+}
+
+/*tercera parte parte dos*/
+
+.p8{
+    fill: none;
+    stroke: red;
+    stroke-width: 0.2vw;
+    stroke-dasharray: 95 ;
+    transform: rotate(-60deg);
+    transform-origin: 50%;
+}
