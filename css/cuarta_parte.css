@@ -84,13 +84,13 @@
 }
 .pp2 .p1{
     position: absolute;
-    background-color: rgb(224, 224, 224);
+    background-color:  rgba(180, 180, 180, 0.514);
     width: 10vw;
     height: 1.5vw;
     text-align: center;
     padding: 1vw;
     font-size: 1vw;
-    border: 0.2vw solid black;
+    border: 0.5vw solid orange;
     border-radius: 2vw;
 }
 
@@ -99,8 +99,8 @@
 .pp3{
     position: absolute;
     margin-left: 40vw;
-    background-color: grey;
-    border: 0.2vw solid orange;
+    background-color: rgba(180, 180, 180, 0.514);
+    border: 0.5vw solid orange;
     border-radius: 4vw;
     width: 10vw;
     height: 20vw;
@@ -163,10 +163,10 @@
 }
 .pp4 .p1{
     position: absolute;
-    margin-left: 38vw;
+    margin-left: 38.5vw;
     margin-top: 30vw;
     width: 20vw;
-    height: 2vw;
+    height: 4vw;
     border-radius: 3vw;
     padding: 1vw;
     font-size: 2vw;

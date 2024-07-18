@@ -85,13 +85,13 @@
 }
 .pp2 .p1{
     position: absolute;
-    background-color: rgb(224, 224, 224);
+    background-color:  rgba(180, 180, 180, 0.514);
     width: 10vw;
     height: 1.5vw;
     text-align: center;
     padding: 1vw;
     font-size: 1vw;
-    border: 0.2vw solid black;
+    border: 0.5vw solid orange;
     border-radius: 2vw;
     margin-top: 29.5vw;
 }
@@ -101,8 +101,8 @@
 .pp3{
     position: absolute;
     margin-left: 60vw;
-    background-color: grey;
-    border: 0.2vw solid orange;
+    background-color:  rgba(180, 180, 180, 0.514);
+    border: 0.5vw solid orange;
     border-radius: 4vw;
     width: 10vw;
     height: 20vw;
@@ -115,7 +115,7 @@
     margin-left: -2.8vw;
     font-size: 1vw ;
     color: black;
-    background-color: rgb(224, 224, 224);
+    background-color: rgba(224, 224, 224, 0.452);
     border: 0.1vw solid rgb(224, 224, 224);
     border-radius: 2vw ;
 }
@@ -125,7 +125,7 @@
     margin-left: -2.8vw;
     font-size: 1vw ;
     color: black;
-    background-color: rgb(224, 224, 224);
+    background-color: rgba(224, 224, 224, 0.445);
     border: 0.1vw solid rgb(224, 224, 224);
     border-radius: 2vw ;
     margin-top: 5vw;
@@ -142,8 +142,8 @@
 .pp4{
     position: absolute;
     margin-left: 20vw;
-    background-color: grey;
-    border: 0.2vw solid orange;
+    background-color: rgba(180, 180, 180, 0.514);
+    border: 0.5vw solid orange;
     border-radius: 4vw;
     width: 10vw;
     height: 20vw;
@@ -156,7 +156,7 @@
     margin-left: -2.8vw;
     font-size: 1vw ;
     color: black;
-    background-color: rgb(224, 224, 224);
+    background-color: rgba(224, 224, 224, 0.493);
     border: 0.1vw solid rgb(224, 224, 224);
     border-radius: 2vw ;
 }
@@ -166,7 +166,7 @@
     margin-left: -2.8vw;
     font-size: 1vw ;
     color: black;
-    background-color: rgb(224, 224, 224);
+    background-color: rgba(224, 224, 224, 0.5);
     border: 0.1vw solid rgb(224, 224, 224);
     border-radius: 2vw ;
     margin-top: 6vw;
