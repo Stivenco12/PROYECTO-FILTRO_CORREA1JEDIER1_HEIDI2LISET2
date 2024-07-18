@@ -39,43 +39,52 @@
     justify-content: space-between;
     font-size: 1vw;
     padding: 1vw 0vw ;
-    width: 100%;
-    margin-top: -5vw;
-
+    width: 99.5%;
+    margin-top: -6vw;
 }
 .pp1 .p1{
-
     margin-left: 10vw;
+    width:15%;
 }
 .pp1 .p3{
-    margin-left: 8vw;
+    margin-left: 6vw;
+    width:15%;
 }
 .pp1 .p5{
-    margin-left: 8vw;
+    margin-left: 6vw;
+    width:15%;
 }
 .pp1 .p7{
-    margin-left: 8vw;
+    margin-left: 5.5vw;
+    width:25%;
 }
 .pp1 .p8{
-    margin-left: 10vw;
+    margin-left: 8vw;
+    width:15%;
 }
 .pp1 .p10{
-    margin-left: 10vw;
+    margin-left: 8vw;
+    width:15%;
 }
 .pp1 .p12{
-    margin-left: 10vw;
+    margin-left: 8vw;
+    width:15%;
 }
 .pp1 .p13{
     margin-left: 1vw;
+    width:60%;
 }
-
+.pp1 .p14{
+    margin-left: 1vw;
+    width:40%;
+}
 /*segunda parte*/
 
 .pp2{
     margin-top: 5vw;
 }
 .pp2 .p1{
-    margin-top: 3vw;
+    margin-top: 5vw;
     text-align: center;
     font-size: 1.5vw;
 }
@@ -167,6 +176,7 @@
     position: absolute;
     margin-left: 2vw;
     margin-top: -0.4vw;
+    width: 3%;
 }
 
 /*tercera parte parte 3*/
@@ -214,6 +224,7 @@
     position: absolute;
     margin-left: 2vw;
     margin-top: -0.4vw;
+    width: 3%;
 }
 
 /*tercera parte parte dos*/
@@ -261,6 +272,7 @@
     position: absolute;
     margin-left: 2vw;
     margin-top: -0.4vw;
+    width: 3%;
 }
 
 /*tercera parte parte 4*/
@@ -308,6 +320,7 @@
     position: absolute;
     margin-left: 2vw;
     margin-top: -0.4vw;
+    width: 3%;
 }
 
 
@@ -356,6 +369,7 @@
     position: absolute;
     margin-left: 2vw;
     margin-top: -0.4vw;
+    width: 3%;
 }
 
 /*tercera parte parte 6*/
@@ -403,6 +417,7 @@
     position: absolute;
     margin-left: 2vw;
     margin-top: -0.4vw;
+    width: 3%;
 }
 
 /*tercera parte parte 7*/
@@ -450,15 +465,18 @@
     position: absolute;
     margin-left: 2vw;
     margin-top: -0.4vw;
+    width: 3%;
 }
 
 .pp4 .p1{
-    margin-left: 45vw;
+    position: absolute;
+    margin-left: 38vw;
     margin-top: 30vw;
-    width: 10%;
-    height: 10%;
+    width: 20vw;
+    height: 2vw;
     border-radius: 3vw;
     padding: 1vw;
+    font-size: 2vw;
     text-align: center;
     color: #fff;
     background-color: orange;
