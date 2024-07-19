@@ -39,6 +39,7 @@
 .pp2 .p1{
     margin-left: 45%;
     margin-top: 1vw;
+    width: 10%;
 }
 .pp2 .p2{
     text-align: center;
@@ -48,6 +49,7 @@
 .pp2 .p3{
     margin-left: 45%;
     margin-top: 1vw;
+    width: 10%;
 }
 .pp2 .p4{
     text-align: center;
@@ -84,5 +86,60 @@
     }
     100%{
         opacity: 1;
+    }
+}
+@media (max-width: 430px) {
+    .pp1 .p1{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    .pp1 .p2{
+        position: absolute;
+        margin-left: 9em;
+        margin-top: 20em;
+        width: 30%;
+        color: orange;
+        animation-name: p1 ;
+        animation-duration: 2s;
+    }
+
+    /**/
+
+    .pp2 {
+        background: #ffff;
+        margin-left: 6em;
+        margin-top: 18em;
+        width: 15em;
+        height: 13em;
+        border-radius: 2em;
+        position: absolute;
+        animation-name: p2 ;
+        animation-duration: 3s;
+    }
+    .pp2 .p1{
+        margin-left: 40%;
+        margin-top: 0.5em;
+        width: 3em;
+    }
+    .pp2 .p2{
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 1vw;
+    }
+    .pp2 .p3{
+        margin-left: 40%;
+        margin-top: 0.5em;
+        width: 3em;
+    }
+    .pp2 .p4{
+        text-align: center;
+        font-size: 1em;
+    }
+    .pp2 .p5{
+        text-align: center;
+        font-size: 0.6em;
+        margin-top: 0.5em;
     }
 }

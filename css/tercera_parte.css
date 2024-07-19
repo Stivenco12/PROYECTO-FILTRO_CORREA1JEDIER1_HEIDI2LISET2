@@ -4,7 +4,9 @@
     text-decoration: none;
     color: inherit; 
 }
-
+.media{
+    opacity: 0;
+}
 .p .p1{
     position: absolute;
     width: 100%;
@@ -64,7 +66,6 @@
 }
 
 .p0{
-
     animation-name: p2 ;
     animation-duration: 2s;
 }
@@ -79,6 +80,7 @@
     padding: 1vw 0vw ;
     width: 99.5%;
     margin-top: -7vw;
+
 }
 .pp1 .p1{
     margin-left: 10vw;
@@ -141,6 +143,7 @@
     justify-content: space-between;
     font-size: 1vw;
     margin-top: 2vw;
+    overflow-x: auto;
 }
 .pp3 .ppp1 .p1{
     margin-left: 5vw;
@@ -401,7 +404,7 @@
     margin-left: 1vw;
 }
 .pp3 .ppp6 .p3{
-    margin-left: 3.2vw;
+    margin-left: 3.2vw; 
 }
 .pp3 .ppp6 .p4{
     margin-left: 8vw;
