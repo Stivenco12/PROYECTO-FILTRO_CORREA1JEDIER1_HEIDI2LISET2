@@ -13,8 +13,45 @@
     background-color: black;
     opacity: 0;
     animation-name: p0 ;
-    animation-duration: 2s;
+    animation-duration: s;
 }
+/*menu cerrar sesion*/
+#l1{
+    display: none;
+}
+.l2 a{
+    display: none;
+}
+.l2{
+    background-color: white;
+    z-index: 2; 
+    border-radius: 2em;    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 2em;
+    padding-top: 2em;
+    line-height: 2em;
+
+}
+#l1:checked~.l2{
+    height: 8em;
+    width: 10em;
+    border: 1px solid black;
+    margin-left: -10vw;
+}
+#l1:checked~.l2 a{
+    display: block;
+}
+#l3{
+    height: 2em;
+    width: 8em;
+    background-color: orangered;
+    border-radius: 2em;
+    text-align: center;
+}
+
+/*inicio*/
 .p .p2{
     position: absolute;
     margin-left: 45vw;
@@ -22,7 +59,7 @@
     width: 10%;
     color: orange;
     animation-name: p1 ;
-    animation-duration: 2s;
+    animation-duration: s;
     opacity: 0;
 }
 
@@ -76,8 +113,9 @@
     width:60%;
 }
 .pp1 .p14{
+    cursor: pointer;
     margin-left: 1vw;
-    width:40%;
+    width:50%;
 }
 /*segunda parte*/
 

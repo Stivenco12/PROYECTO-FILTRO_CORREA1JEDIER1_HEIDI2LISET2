@@ -4,6 +4,41 @@
     text-decoration: none;
     color: inherit; 
 }
+/*menu cerrar sesion*/
+#l1{
+    display: none;
+}
+.l2 a{
+    display: none;
+}
+.l2{
+    background-color: white;
+    z-index: 2; 
+    border-radius: 2em;    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 2em;
+    padding-top: 2em;
+    line-height: 2em;
+
+}
+#l1:checked~.l2{
+    height: 8em;
+    width: 10em;
+    border: 1px solid black;
+    margin-left: -10vw;
+}
+#l1:checked~.l2 a{
+    display: block;
+}
+#l3{
+    height: 2em;
+    width: 8em;
+    background-color: orangered;
+    border-radius: 2em;
+    text-align: center;
+}
 
 /*animacion*/
 .pp0 .p1{
@@ -72,6 +107,7 @@
     width:60%;
 }
 .pp1 .p14{
+    cursor: pointer;
     margin-left: 1vw;
     width:40%;
 }
